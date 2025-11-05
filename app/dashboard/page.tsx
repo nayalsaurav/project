@@ -17,7 +17,7 @@ const Dashboard = () => {
       </div>
 
       {/* Dashboard Grid */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+      <div className="space-y-5">
         {/* AI Training Computation */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
