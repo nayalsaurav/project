@@ -41,6 +41,10 @@ const utilities = [
     title: "Code Explainer",
     url: "/utilities/code-explainer",
   },
+  {
+    title: "Resume Analyzer",
+    url: "/utilities/resume-analyzer",
+  },
 ];
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
@@ -54,7 +58,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
           <div className="flex h-8 w-8 items-center justify-center rounded-md bg-primary text-primary-foreground">
             <Wrench className="h-4 w-4" />
           </div>
-          <div className="font-semibold">AI Utilities</div>
+          <div className="font-semibold">AI360</div>
         </div>
         <SearchForm />
       </SidebarHeader>
